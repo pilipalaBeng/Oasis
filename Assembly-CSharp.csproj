@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C1BC7244-5A6B-2095-8896-9F4B02993078}</ProjectGuid>
+    <ProjectGuid>{26E30AF8-5A52-3C07-D321-114B7A71EB78}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -86,6 +86,8 @@
     <Compile Include="Assets\GameType\RACAsset\Script\Car.cs" />
     <Compile Include="Assets\GameType\RACAsset\Script\RacGameMgr.cs" />
     <Compile Include="Assets\GameType\RACAsset\Script\Track.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\TargetPoint.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\ViewController.cs" />
     <None Include="Assets\GameType\RACAsset\CarModel-1\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
     <None Include="Assets\GameType\RACAsset\CarModel-1\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
     <None Include="Assets\GameType\RACAsset\CarModel-1\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />
@@ -119,25 +121,25 @@
     <None Include="Assets\GameType\RACAsset\CarModel-1\HardSurface Shaders\HardSurface Free Transparent.shader" />
     <None Include="Assets\GameType\RACAsset\CarModel-1\HardSurface Shaders\HardSurface Free Opaque.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/UnityPorject/绿洲/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/UnityPorject/绿洲/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/UnityPorject/绿洲/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/UnityPorject/绿洲/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/UnityPorject/绿洲/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/UnityPorject/绿洲/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/UnityPorject/绿洲/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -341,22 +343,22 @@
       <HintPath>C:/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="SonicBloom.Koreo">
-      <HintPath>C:/UnityPorject/绿洲/Assets/Plugins/Koreographer/Unity Editor/SonicBloom.Koreo.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Assets/Plugins/Koreographer/Unity Editor/SonicBloom.Koreo.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>C:/UnityPorject/绿洲/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>C:/UnityPorject/绿洲/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/UnityPorject/绿洲/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/UnityPorject/绿洲/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/UnityPorject/绿洲/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/UnityPorject/GitHub_Oasis/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
