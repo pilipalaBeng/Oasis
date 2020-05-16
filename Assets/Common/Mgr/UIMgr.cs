@@ -15,7 +15,7 @@ namespace UI
         // 显隐方式   active scale position layer
         [Header("跳转场景时是否销毁自身？")]
         public bool isJumpSceneDesSelf = false;
-        private enum DisplayTypeEnum
+        private  enum DisplayTypeEnum
         {
             Active,
             Scale,
@@ -130,6 +130,7 @@ public class UIMgr : ManagerBase
         {
             ui.transform.SetParent(canvas);
             ui.transform.localPosition = Vector3.zero;
+            ui.transform.localScale = Vector3.one;
         }
     }
     public UIBase GetUI(string name)

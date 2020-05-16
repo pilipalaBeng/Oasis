@@ -32,14 +32,16 @@ namespace UI
         {
             //执行完回调后顺便关掉组件
             onNoDel?.Invoke();
-            self.localScale = Vector3.zero;
+            OnHide();
+            //self.localScale = Vector3.zero;
         }
 
         private void OnYesBtnClick()
         {
             //执行完回调后顺便关掉组件
             onYesDel?.Invoke();
-            self.localScale = Vector3.zero;
+            OnHide();
+            //self.localScale = Vector3.zero;
         }
         public override void OnDisplayer(params object[] objs)
         {

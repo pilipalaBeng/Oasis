@@ -86,8 +86,16 @@
     <Compile Include="Assets\GameType\RACAsset\Script\Car.cs" />
     <Compile Include="Assets\GameType\RACAsset\Script\RacGameMgr.cs" />
     <Compile Include="Assets\GameType\RACAsset\Script\Track.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\BuildMgr.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\Bullet.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\Enemy.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\EnemySpawner.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\MapCube.cs" />
     <Compile Include="Assets\GameType\TDAsset\Script\TargetPoint.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\Turret.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\TurretData.cs" />
     <Compile Include="Assets\GameType\TDAsset\Script\ViewController.cs" />
+    <Compile Include="Assets\GameType\TDAsset\Script\Wave.cs" />
     <None Include="Assets\GameType\RACAsset\CarModel-1\HardSurface Shaders\HardSurface Free Cut Out Bump.shader" />
     <None Include="Assets\GameType\RACAsset\CarModel-1\HardSurface Shaders\HardSurface Free Cut Out Opaque Diffuse.shader" />
     <None Include="Assets\GameType\RACAsset\CarModel-1\HardSurface Shaders\HardSurface Free Transparent Bump.shader" />

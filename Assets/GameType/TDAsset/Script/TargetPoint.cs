@@ -1,8 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class TargetPoint : MonoBehaviour
+namespace TD
 {
-    public GameObject[] targetPos;
+    public class TargetPoint : MonoBehaviour
+    {
+        public Transform[] targetPos;
+        public Transform startPos;
+        public Transform endPos;
+    }
 }
